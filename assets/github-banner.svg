@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="480" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="100" r="150" fill="#7c3aed" opacity="0.15" filter="url(#blurGlow)"/>
+  <circle cx="1000" cy="400" r="180" fill="#06b6d4" opacity="0.15" filter="url(#blurGlow)"/>
+  <circle cx="900" cy="80" r="120" fill="#ec4899" opacity="0.1" filter="url(#blurGlow)"/>
+  
+  <g stroke="#ffffff" stroke-width="0.5" opacity="0.03">
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="480"/>
+    <line x1="600" y1="0" x2="600" y2="480"/>
+    <line x1="900" y1="0" x2="900" y2="480"/>
+  </g>
+
+  <rect x="40" y="40" width="520" height="400" rx="16" fill="url(#glassGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+  <rect x="580" y="40" width="580" height="400" rx="16" fill="url(#glassGrad)" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <!-- LEFT PANEL -->
+  <text x="70" y="100" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="0.5">Panini Eywa</text>
+  <text x="70" y="130" font-family="IBM Plex Sans, sans-serif" font-size="14" fill="#8b949e">कृत्य । सहिष्णुता । मोक्षः</text>
+  <line x1="70" y1="155" x2="530" y2="155" stroke="#ffffff" stroke-opacity="0.1"/>
+  
+  <text x="70" y="185" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#58a6ff">CONNECT</text>
+  <text x="70" y="210" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#c9d1d9"><tspan font-weight="600" fill="#ffffff">Reddit</tspan>  ·  paninieywa</text><text x="70" y="234" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#c9d1d9"><tspan font-weight="600" fill="#ffffff">Facebook</tspan>  ·  Panini Eywa</text><text x="70" y="258" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#c9d1d9"><tspan font-weight="600" fill="#ffffff">Email</tspan>  ·  archivrx@gmail.com</text><text x="70" y="282" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#c9d1d9"><tspan font-weight="600" fill="#ffffff">Google Play</tspan>  ·  xijongputin</text>
+
+  <line x1="70" y1="310" x2="530" y2="310" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <text x="70" y="340" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#58a6ff">PROGRAMMING</text>
+  <text x="70" y="362" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#8b949e">HTML · CSS · JavaScript · TypeScript · Python · C · C++</text>
+
+  <text x="70" y="400" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#58a6ff">FRAMEWORKS</text>
+  <text x="70" y="422" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#8b949e">React · Docker · Express · FastAPI · REST · GitHub · RAG</text>
+
+  <!-- RIGHT PANEL -->
+  <g transform="translate(610, 80)">
+    <rect x="0" y="0" width="250" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="20" y="40" font-family="IBM Plex Mono, monospace" font-size="32" font-weight="700" fill="#ffffff">7</text>
+    <text x="20" y="70" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#8b949e">Public Repos</text>
+    
+    <rect x="270" y="0" width="250" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="290" y="40" font-family="IBM Plex Mono, monospace" font-size="32" font-weight="700" fill="#ffffff">0</text>
+    <text x="290" y="70" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#8b949e">Total Stars</text>
+    
+    <rect x="0" y="120" width="250" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="20" y="160" font-family="IBM Plex Mono, monospace" font-size="32" font-weight="700" fill="#ffffff">112</text>
+    <text x="20" y="190" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#8b949e">Total Commits</text>
+    
+    <rect x="270" y="120" width="250" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="290" y="160" font-family="IBM Plex Mono, monospace" font-size="26" font-weight="700" fill="#ffffff">36,022</text>
+    <text x="290" y="190" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#8b949e">Lines of Code</text>
+  </g>
+
+  <text x="610" y="290" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#58a6ff">CODE BREAKDOWN</text>
+  <line x1="610" y1="300" x2="1140" y2="300" stroke="#ffffff" stroke-opacity="0.1"/>
+  
+  <circle cx="690" cy="380" r="50" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="14"/>
+  <circle cx="690" cy="380" r="50" fill="none" stroke="#3178c6" stroke-width="14" stroke-dasharray="276.15 38.01" stroke-linecap="butt" transform="rotate(-90.00 690 380)" opacity="0.95"/>
+    <circle cx="690" cy="380" r="50" fill="none" stroke="#e34c26" stroke-width="14" stroke-dasharray="19.79 294.37" stroke-linecap="butt" transform="rotate(226.44 690 380)" opacity="0.95"/>
+    <circle cx="690" cy="380" r="50" fill="none" stroke="#f1e05a" stroke-width="14" stroke-dasharray="7.85 306.31" stroke-linecap="butt" transform="rotate(249.12 690 380)" opacity="0.95"/>
+    <circle cx="690" cy="380" r="50" fill="none" stroke="#3776ab" stroke-width="14" stroke-dasharray="6.60 307.56" stroke-linecap="butt" transform="rotate(258.12 690 380)" opacity="0.95"/>
+    <circle cx="690" cy="380" r="50" fill="none" stroke="#563d7c" stroke-width="14" stroke-dasharray="3.77 310.39" stroke-linecap="butt" transform="rotate(265.68 690 380)" opacity="0.95"/>
+    <circle cx="690" cy="380" r="50" fill="none" stroke="#384d54" stroke-width="14" stroke-dasharray="0.00 314.16" stroke-linecap="butt" transform="rotate(270.00 690 380)" opacity="0.95"/>
+  
+  <text x="690" y="380-2" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Top</text>
+  <text x="690" y="380+16" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="10" fill="#8b949e">Languages</text>
+
+  <g transform="translate(800, 0)">
+    <circle cx="0" cy="330" r="5" fill="#3178c6"/><text x="14" y="334" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#c9d1d9">TypeScript</text><text x="120" y="334" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8b949e">87.9%</text>
+    <circle cx="0" cy="355" r="5" fill="#e34c26"/><text x="14" y="359" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#c9d1d9">HTML</text><text x="120" y="359" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8b949e">6.3%</text>
+    <circle cx="0" cy="380" r="5" fill="#f1e05a"/><text x="14" y="384" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#c9d1d9">JavaScript</text><text x="120" y="384" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8b949e">2.5%</text>
+    <circle cx="0" cy="405" r="5" fill="#3776ab"/><text x="14" y="409" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#c9d1d9">Python</text><text x="120" y="409" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8b949e">2.1%</text>
+    <circle cx="0" cy="430" r="5" fill="#563d7c"/><text x="14" y="434" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#c9d1d9">CSS</text><text x="120" y="434" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8b949e">1.2%</text>
+    <circle cx="0" cy="455" r="5" fill="#384d54"/><text x="14" y="459" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#c9d1d9">Dockerfile</text><text x="120" y="459" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8b949e">0.0%</text>
+  </g>
+
+  <text x="1140" y="450" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#8b949e">Updated: 20th September 2026 · 09:19 PM IST</text>
+</svg>
