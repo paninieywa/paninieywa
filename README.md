@@ -1,3 +1,3 @@
-<div align="center">
-  <img src="assets/github-banner.svg" width="100%" alt="Profile Banner" />
-</div>
+<img src="assets/github-banner-temple.svg" width="100%">
+<img src="assets/github-banner-marble.svg" width="100%">
+<img src="assets/github-banner-saltflats.svg" width="100%">
